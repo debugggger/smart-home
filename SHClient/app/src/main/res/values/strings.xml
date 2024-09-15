@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SHClient</string>
+
+    <string-array name="userRoles">
+        <item>Гость</item>
+        <item>Член семьи</item>
+        <item>Администратор</item>
+    </string-array>
 </resources>

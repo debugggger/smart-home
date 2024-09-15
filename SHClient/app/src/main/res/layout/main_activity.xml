@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/bSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:layout_margin="30sp"
+            app:srcCompat="@drawable/settings" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    app:srcCompat="@drawable/temp" />
+
+                <TextView
+                    android:id="@+id/tTemp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="50sp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:text="22" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:layout_margin="20sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="устройства"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bPopular2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_weight="1"
+                    android:layout_margin="10sp"
+                    android:textSize="20sp"
+                    android:background="@drawable/button"
+                    android:drawableTop="@drawable/lamp1"
+                    android:text="основной"
+                    tools:ignore="HardcodedText,MissingConstraints,NestedWeights" />
+
+                <Button
+                    android:id="@+id/bPopular"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="10sp"
+                    android:textSize="20sp"
+                    android:background="@drawable/button"
+                    android:drawableTop="@drawable/fan"
+                    android:text="вытяжка"
+                    tools:ignore="HardcodedText,MissingConstraints" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="25sp"
+                android:layout_margin="20sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:text="помещения"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bPopular4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:drawableTop="@drawable/bedroom"
+                    android:layout_margin="10sp"
+                    android:textSize="20sp"
+                    android:text="спальня"
+                    tools:ignore="HardcodedText,MissingConstraints,NestedWeights" />
+
+                <Button
+                    android:id="@+id/bPopular3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="10sp"
+                    android:textSize="20sp"
+                    android:background="@drawable/button"
+                    android:drawableTop="@drawable/sofa"
+                    android:text="гостиная"
+                    tools:ignore="HardcodedText,MissingConstraints" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
