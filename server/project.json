@@ -1,0 +1,17 @@
+{
+    "name": "smart_home",
+    "about": "smart home on esp platform",
+    "version": "1.0",
+    "notes": "test upd",
+    "builds": [
+      {
+        "chipFamily": "ESP8266",
+        "parts": [
+          {
+            "path": "https://github.com/debugggger/smart-home/tree/main/server/firmware.bin",
+            "offset": 0
+          }
+        ]
+      }
+    ]
+  }
